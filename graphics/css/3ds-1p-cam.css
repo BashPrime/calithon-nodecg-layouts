@@ -1,0 +1,35 @@
+body {
+	background: url('../img/layouts/Calithon_3DS_cam.png') no-repeat;
+}
+
+#runner-container1 {
+  width: 439px;
+  height: 45px;
+  line-height: 45px;
+  left: 366px;
+  bottom: 58px;
+}
+
+#game-name {
+	width: 439px;
+	height: 65px;
+	line-height: 65px;
+	right: 0;
+	bottom: 103px;
+}
+
+#info-container {
+	width: 439px;
+	height: 45px;
+	line-height: 45px;
+	right: 0;
+	bottom: 58px;
+}
+
+#timer {
+	width: 439px;
+	height: 65px;
+	line-height: 65px;
+	left: 366px;
+	bottom: 103px;
+}

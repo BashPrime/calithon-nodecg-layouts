@@ -1,0 +1,55 @@
+body {
+    --omnibar-height: 55px;
+    --omnibar-item-color: #0d539a;
+    --omnibar-border-color: #002157;
+
+	width: 1280px;
+	height: var(--omnibar-height);
+}
+
+#donation-total-container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	line-height: var(--omnibar-height);
+	background-color: var(--omnibar-item-color);
+	border-right: 3px solid var(--omnibar-border-color);
+}
+
+#charity-logo {
+	display: inline-block;
+	margin-right: 1rem;
+	height: var(--omnibar-height);
+	vertical-align: middle;
+}
+
+#charity-logo img {
+	height: 20px;
+	vertical-align: middle;
+	margin-left: 0.5rem;
+}
+
+#donation-total {
+	font-family: 'Montserrat Bold';
+	display: inline-block;
+	margin-right: 0.5rem;
+	font-size: 24pt;
+	vertical-align: middle;
+}
+
+#calithon-logo {
+	height: var(--omnibar-height);
+	line-height: var(--omnibar-height);
+	background-color: var(--omnibar-item-color);
+	border-left: 3px solid var(--omnibar-border-color);
+	text-align: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#calithon-logo img {
+	height: 40px;
+	vertical-align: middle;
+	margin: 0 0.5rem;
+}

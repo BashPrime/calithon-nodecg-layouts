@@ -1,0 +1,48 @@
+body {
+	background: url('../img/layouts/Calithon_4x3D_cam.png') no-repeat;
+}
+
+.runner-container {
+	width: 270px;
+	height: 45px;
+	line-height: 45px;
+}
+
+#runner-container1 {
+	left: 443px;
+	top: 157px;
+}
+
+#runner-container2 {
+	right: 443px;
+	top: 205px;
+}
+
+#runner-container3 {
+	left: 443px;
+	top: 321px;
+}
+
+#game-name {
+	width: 378px;
+	height: 88px;
+	line-height: 88px;
+	top: 0;
+	left: 443px;
+}
+
+#info-container {
+	width: 378px;
+	height: 45px;
+	line-height: 45px;
+	top: 88px;
+	left: 443px;
+}
+
+#timer {
+	width: 394px;
+	height: 65px;
+	line-height: 65px;
+	left: 443px;
+	top: 253px;
+}

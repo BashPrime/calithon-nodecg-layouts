@@ -1,0 +1,61 @@
+body {
+	background: url('../img/layouts/Calithon_3DSB_nocam.png') no-repeat;
+}
+
+.runner-container {
+	width: 182px;
+	height: 39px;
+	line-height: 39px;
+}
+
+.runner-name {
+	float: unset;
+	text-align: center;
+	width: 100%;
+}
+
+#runner-container1 {
+	left: 12px;
+	top: 23px;
+}
+
+#runner-container2 {
+	right: 12px;
+	top: 23px;
+}
+
+#runner-container3 {
+	left: 12px;
+	top: 454px;
+}
+
+#runner-container4 {
+	right: 12px;
+	top: 454px;
+}
+
+#game-name {
+	width: 491px;
+	height: 101px;
+	line-height: 101px;
+	bottom: 103px;
+	left: 0;
+}
+
+#info-container {
+	width: 491px;
+	height: 45px;
+	line-height: 45px;
+	bottom: 58px;
+	left: 0;
+}
+
+#timer {
+	font-size: 48pt;
+	width: 507px;
+	height: 146px;
+	line-height: 146px;
+	right: 0;
+	bottom: 58px;
+	background: #0b498b;
+}

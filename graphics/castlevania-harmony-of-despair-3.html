@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/castlevania-harmony-of-despair-3.css" />
+
+	<!-- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<script src="js/layouts/game-layout.js"></script>
+	<script src="js/pronouns.js"></script>
+	<script src="js/utils.js"></script>
+	<script src="js/timer.js"></script>
+
+	<script>
+		let isOffline = false;
+	</script>
+</head>
+
+<body>
+	<!--Runner details.-->
+	<div class="runner-container" id="runner-container1">
+		<div class="runner-name" id="runner-name1"></div>
+		<div class="pronouns" id="pronouns1"></div>
+	</div>
+
+	<div class="runner-container" id="runner-container2">
+		<div class="runner-name" id="runner-name2"></div>
+		<div class="pronouns" id="pronouns2"></div>
+	</div>
+
+	<div class="runner-container" id="runner-container3">
+		<div class="runner-name" id="runner-name3"></div>
+		<div class="pronouns" id="pronouns3"></div>
+	</div>
+
+	<!--Game details -->
+	<div id="game-name"></div>
+
+	<!-- Game Info -->
+	<div id="info-container">
+		<div id="category"></div>
+		<div id="estimate-container">
+			<img id="estimate-label" src="img/common/timer.svg" />
+			<div id="estimate"></div>
+		</div>
+	</div>
+
+	<!-- Timer -->
+	<div id="timer"></div>
+</body>
+
+</html>

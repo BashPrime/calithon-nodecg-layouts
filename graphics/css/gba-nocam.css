@@ -1,0 +1,35 @@
+body {
+	background: url('../img/layouts/Calithon_GBA_nocam.png') no-repeat;
+}
+
+#runner-container1 {
+	width: 394px;
+	height: 45px;
+	line-height: 45px;
+	left: 457px;
+	bottom: 58px;
+}
+
+#game-name {
+	width: 394px;
+	height: 65px;
+	line-height: 65px;
+	right: 0;
+	bottom: 103px;
+}
+
+#info-container {
+	width: 394px;
+	height: 45px;
+	line-height: 45px;
+	right: 0;
+	bottom: 58px;
+}
+
+#timer {
+	width: 394px;
+	height: 65px;
+	line-height: 65px;
+	left: 457px;
+	bottom: 103px;
+}

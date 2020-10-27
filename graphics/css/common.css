@@ -1,0 +1,92 @@
+@font-face {
+	font-family: 'Montserrat Regular';
+	src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'Montserrat Bold';
+	src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+body {
+	font-family: 'Montserrat Regular', sans-serif;
+	color: #f9f9f9;
+	padding: 0;
+	margin: 0;
+	width: 1280px;
+	height: 720px;
+	position: absolute;
+}
+
+#game-name {
+	font-family: 'Montserrat Bold';
+	font-size: 24pt;
+	font-stretch: semi-condensed;
+	text-align: center;
+	position: absolute;
+	margin: 0 0.5rem;
+}
+
+.runner-container {
+	font-size: 18pt;
+	position: absolute;
+	display: flex;
+	margin: 0 0.5rem;
+}
+
+.runner-name {
+	float: left;
+	vertical-align: middle;
+	flex: 1;
+}
+
+.pronouns {
+	font-size: 14pt;
+	float: right;
+	vertical-align: middle;
+}
+
+#info-container {
+	font-size: 18pt;
+	position: absolute;
+	display: flex;
+	margin: 0 0.5rem;
+}
+
+#category {
+	float: left;
+	vertical-align: middle;
+	flex: 1;
+}
+
+#estimate-container {
+	float: right;
+	vertical-align: middle;
+}
+
+#estimate-label {
+	display: inline-block;
+	vertical-align: middle;
+	height: 14pt;
+}
+
+#estimate {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 14pt;
+}
+
+#timer {
+	font-family: 'Montserrat Bold';
+	font-size: 32pt;
+	text-align: center;
+	position: absolute;
+}
+
+.timer_stopped {
+	color: #c0c0c0;
+}
+
+.timer_finished {
+	color: #50ff50;
+}

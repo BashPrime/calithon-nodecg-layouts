@@ -1,0 +1,166 @@
+{
+  "name": "calithon-stand-together-layouts",
+  "version": "1.0.0",
+  "description": "Calithon Stand Together marathon layouts using NodeCG + Speedcontrol",
+  "homepage": "https://twitter.com/CalithonSR",
+  "author": "BashPrime",
+  "dependencies": {},
+  "nodecg": {
+    "compatibleRange": "^1.6.0",
+    "dependencies": [
+      "speedcontrol/nodecg-speedcontrol:>=2.0"
+    ],
+    "dashboardPanels": [
+      {
+        "name": "host-switcher",
+        "title": "Host Switcher",
+        "width": 2,
+        "file": "host-switcher.html",
+        "headerColor": "#525C78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "4x3-1p-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "4x3-1p-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "4x3-2p-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "4x3-2p-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "4x3-3p-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "4x3-3p-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "4x3-4p-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "4x3-4p-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "16x9-1p-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "16x9-1p-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "16x9-2p-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "16x9-2p-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "3ds-1p-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "3ds-1p-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "3ds-4p-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "3ds-4p-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "ds-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "ds-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "gb-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "gb-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "gba-cam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "gba-nocam.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "castlevania-harmony-of-despair-1.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "castlevania-harmony-of-despair-2.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "castlevania-harmony-of-despair-3.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "metroid-prime-2-echoes.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "intermission.html",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "file": "omnibar.html",
+        "width": 1280,
+        "height": 55
+      }
+    ]
+  },
+  "license": "MIT"
+}

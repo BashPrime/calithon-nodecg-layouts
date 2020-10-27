@@ -1,0 +1,35 @@
+body {
+	background: url('../img/layouts/Calithon_GB_cam.png') no-repeat;
+}
+
+#runner-container1 {
+	width: 380px;
+	height: 45px;
+	line-height: 45px;
+	top: 403px;
+	left: 73px;
+}
+
+#game-name {
+	width: 380px;
+	height: 65px;
+	line-height: 65px;
+	top: 0;
+	left: 73px;
+}
+
+#info-container {
+	width: 380px;
+	height: 45px;
+	line-height: 45px;
+	top: 65px;
+	left: 73px;
+}
+
+#timer {
+	width: 396px;
+	height: 65px;
+	line-height: 65px;
+	left: 73px;
+	top: 338px;
+}
