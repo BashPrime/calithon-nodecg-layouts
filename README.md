@@ -1,4 +1,4 @@
-# Calithon Coronavirus Relief Layouts
+# Calithon NodeCG Layouts
 
 ## Prerequisites
 

@@ -1,7 +1,7 @@
 {
-  "name": "calithon-stand-together-layouts",
+  "name": "calithon-nodecg-layouts",
   "version": "1.0.0",
-  "description": "Calithon Stand Together marathon layouts using NodeCG + Speedcontrol",
+  "description": "Calithon marathon layouts using NodeCG + Speedcontrol",
   "homepage": "https://twitter.com/CalithonSR",
   "author": "BashPrime",
   "dependencies": {},
