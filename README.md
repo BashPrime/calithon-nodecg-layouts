@@ -12,13 +12,18 @@ npm install --global nodecg-cli
 
 Create a new directory. Inside the new directory, run the NodeCG setup:
 
-`nodecg setup`
+```bash
+nodecg setup
+```
 
-Next, install the following NodeCG bundles:
+Next, install the following NodeCG bundles, checking out the correct branch for Calithon Spooktacular:
 
 ```bash
 nodecg install speedcontrol/nodecg-speedcontrol
-nodecg install etaylor8086/calithon-stand-together-layouts
+nodecg install etaylor8086/calithon-nodecg-layouts
+cd bundles/calithon-nodecg-layouts
+git checkout calithon-spooktacular
+cd ../..
 ```
 
 You can optionally generate default config files for the bundle:
