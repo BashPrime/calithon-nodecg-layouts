@@ -1,15 +1,10 @@
 @font-face {
-	font-family: 'Montserrat Regular';
-	src: url('../fonts/Montserrat-Regular.ttf');
-}
-
-@font-face {
-	font-family: 'Montserrat Bold';
-	src: url('../fonts/Montserrat-Bold.ttf');
+	font-family: 'Acme Regular';
+	src: url('../fonts/Acme-Regular.ttf');
 }
 
 body {
-	font-family: 'Montserrat Regular', sans-serif;
+	font-family: 'Acme Regular', sans-serif;
 	color: #f9f9f9;
 	padding: 0;
 	margin: 0;
@@ -19,8 +14,7 @@ body {
 }
 
 #game-name {
-	font-family: 'Montserrat Bold';
-	font-size: 24pt;
+	font-size: 36pt;
 	font-stretch: semi-condensed;
 	text-align: center;
 	position: absolute;
@@ -67,18 +61,18 @@ body {
 #estimate-label {
 	display: inline-block;
 	vertical-align: middle;
-	height: 14pt;
+}
+
+#estimate-label img {
+	height: 18pt;
 }
 
 #estimate {
 	display: inline-block;
-	vertical-align: middle;
-	font-size: 14pt;
 }
 
 #timer {
-	font-family: 'Montserrat Bold';
-	font-size: 32pt;
+	font-size: 54pt;
 	text-align: center;
 	position: absolute;
 }
