@@ -1,4 +1,4 @@
-# Calithon NodeCG Layouts
+# Calithon Spooktacular Layouts
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@ Next, install the following NodeCG bundles, checking out the correct branch for 
 
 ```bash
 nodecg install speedcontrol/nodecg-speedcontrol
-nodecg install etaylor8086/calithon-nodecg-layouts
+nodecg install bashprime/calithon-nodecg-layouts
 cd bundles/calithon-nodecg-layouts
 git checkout calithon-spooktacular
 cd ../..
