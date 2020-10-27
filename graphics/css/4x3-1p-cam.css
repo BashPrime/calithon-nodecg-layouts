@@ -27,6 +27,7 @@ body {
 }
 
 #timer {
+	font-size: 54pt;
 	width: 396px;
 	height: 85px;
 	line-height: 85px;

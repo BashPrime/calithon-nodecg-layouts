@@ -1,5 +1,5 @@
 body {
-	background: url('../img/layouts/Calithon_16x9_cam.png') no-repeat;
+	background: url('../img/layouts/Spook_16x9.png') no-repeat;
 }
 
 #runner-container1 {
@@ -14,7 +14,7 @@ body {
 	width: 471px;
 	height: 65px;
 	line-height: 65px;
-	right: 0;
+	left: 304px;
 	bottom: 103px;
 }
 
@@ -30,6 +30,6 @@ body {
 	width: 487px;
 	height: 65px;
 	line-height: 65px;
-	left: 304px;
+	right: 0;
 	bottom: 103px;
 }

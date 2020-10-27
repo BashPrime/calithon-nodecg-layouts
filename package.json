@@ -41,26 +41,6 @@
         "height": 720
       },
       {
-        "file": "4x3-3p-cam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "4x3-3p-nocam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "4x3-4p-cam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "4x3-4p-nocam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
         "file": "16x9-1p-cam.html",
         "width": 1280,
         "height": 720
@@ -81,36 +61,6 @@
         "height": 720
       },
       {
-        "file": "3ds-1p-cam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "3ds-1p-nocam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "3ds-4p-cam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "3ds-4p-nocam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "ds-cam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "ds-nocam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
         "file": "gb-cam.html",
         "width": 1280,
         "height": 720
@@ -127,26 +77,6 @@
       },
       {
         "file": "gba-nocam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "castlevania-harmony-of-despair-1.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "castlevania-harmony-of-despair-2.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "castlevania-harmony-of-despair-3.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "metroid-prime-2-echoes.html",
         "width": 1280,
         "height": 720
       },

@@ -5,6 +5,7 @@ const SHE_THEY = 'She/They';
 const THEY_THEM = 'They/Them';
 
 const pronouns = {
+  Brooke: SHE_HER,
   Celabeat: HE_HIM,
   Riekelt: null,
   Dangers: HE_HIM,
