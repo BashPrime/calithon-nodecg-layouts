@@ -28,7 +28,7 @@ $(() => {
 		let pronouns4 = $('#pronouns4');
 
 		// Apply to html
-		gameTitle.html('Metroid Prime: Hunters');
+		gameTitle.html('Metroid Prime Hunters'.toUpperCase());
 		FixSize('#game-name');
 		gameCategory.html('All Items');
 		FixSize('#category');
@@ -77,7 +77,7 @@ $(() => {
 			let currentTeamsData = getRunnersFromRunData(runData);
 
 			// Split year out from system platform, if present.
-			gameTitle.html(runData.game);
+			gameTitle.html(runData.game.toUpperCase());
 			gameCategory.html(runData.category);
 			gameSystem.html(runData.system);
 			gameYear.html(runData.release);
