@@ -1,35 +1,35 @@
 body {
-	background: url('../img/layouts/Calithon_GB_nocam.png') no-repeat;
+	background: url('../img/layouts/Spook_GBno.png') no-repeat;
 }
 
 #runner-container1 {
-	width: 380px;
+	width: 526px;
 	height: 45px;
 	line-height: 45px;
-	top: 403px;
-	left: 73px;
+	bottom: 243px;
+	left: 0;
 }
 
 #game-name {
-	width: 380px;
-	height: 65px;
-	line-height: 65px;
-	top: 0;
-	left: 73px;
+	width: 526px;
+	height: 85px;
+	line-height: 85px;
+	bottom: 288px;
+	left: 0;
 }
 
 #info-container {
-	width: 380px;
+	width: 526px;
 	height: 45px;
 	line-height: 45px;
-	top: 65px;
-	left: 73px;
+	bottom: 110px;
+	left: 0;
 }
 
 #timer {
-	width: 396px;
-	height: 65px;
-	line-height: 65px;
-	left: 73px;
-	top: 338px;
+	width: 526px;
+	height: 85px;
+	line-height: 85px;
+	left: 0;
+	bottom: 155px;
 }
