@@ -5,7 +5,7 @@
 	height: 55px;
 }
 
-#omnibar * {
+#omnibar > * {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -16,14 +16,20 @@
 }
 
 #omnibar-content * {
-	margin: 0 auto;
-	font-size: 18pt;
 	display: initial;
 }
 
-.omnibar-text {
-	margin: 0 auto;
+.is-single-line {
 	font-size: 18pt;
+}
+
+.is-multiline {
+	font-size: 14pt;
+	margin: 0;
+}
+
+.is-text-centered {
+	margin: 0 auto;
 }
 
 #charity-logo {

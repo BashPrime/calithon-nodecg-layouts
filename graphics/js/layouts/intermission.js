@@ -96,18 +96,6 @@ $(() => {
 	});
   }
 
-  function getNamesForRun(runData) {
-    let currentTeamsData = getRunnersFromRunData(runData);
-    let names = [];
-    for (let team of currentTeamsData) {
-      for (let player of team.players) {
-        names.push(player.name);
-      }
-    }
-
-    return names;
-  }
-
   function refreshNextRunsData(currentRun) {
     const numUpcoming = 2;
     let nextRuns = getNextRuns(currentRun, numUpcoming);
