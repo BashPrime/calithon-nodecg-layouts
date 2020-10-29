@@ -30,7 +30,7 @@ $(() => {
 
 	function displayUpcomingRun(run) {
 		const players = getNamesForRun(run).join(', ');
-		setOmnibarHtml(`<p class="is-multiline is-text-centered">COMING SOON: ${run.game.toUpperCase()}</p>
+		setOmnibarHtml(`<p class="is-multiline is-text-centered">ON DECK: ${run.game.toUpperCase()}</p>
 		<p class="is-multiline is-text-centered">${run.category} by ${players}</p>`);
 	}
 
@@ -40,8 +40,11 @@ $(() => {
 
 		// If run is defined (usually the active run), pick an upcoming run within numHours ahead of it and display it
 		if (run) {
-			const runCandidates = runDataArray.value.filter(runData => {
+			let runCandidates = runDataArray.value.filter(runData => {
 				const maxScheduledS = run.scheduledS + (numHours * 3600);
+
+				// Don't include runs without categories to filter out setup blocks
+				if (!runData.category) return false;
 
 				// Only get runs after the current run, within the numHours threshold
 				return runData.scheduledS > run.scheduledS && runData.scheduledS <= maxScheduledS;
@@ -54,7 +57,12 @@ $(() => {
 				return runCandidates[0];
 			}
 
-			return runCandidates.filter(runData => runData.id !== excludeRun.id)[getRandomInt(0, runCandidates.length)];
+			// actually handle excludeRun
+			if (excludeRun) {
+				runCandidates = runCandidates.filter(runData => runData.id !== excludeRun.id);
+			}
+
+			return runCandidates[getRandomInt(0, runCandidates.length)];
 		}
 	}
 
