@@ -92,7 +92,7 @@ $(() => {
 	});
 
 	currentHost.on('change', (newHost, oldHost) => {
-		$('#host').html(newHost);
+    fadeHtml('#host', newHost);
 	});
   }
 
