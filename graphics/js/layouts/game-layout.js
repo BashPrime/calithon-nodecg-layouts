@@ -77,14 +77,13 @@ $(() => {
 			let currentTeamsData = getRunnersFromRunData(runData);
 
 			// Split year out from system platform, if present.
-			gameTitle.html(runData.game.toUpperCase());
-			gameCategory.html(runData.category);
 			gameSystem.html(runData.system);
 			gameYear.html(runData.release);
 			gameEstimate.html(runData.estimate);
 
-			FixSize('#game-name');
-			FixSize('#category');
+			// Fade out and fix text size for game title, run category
+			fadeHtml('#game-name', runData.game.toUpperCase(), true);
+			fadeHtml('#category', runData.category, true);
 
 			// Set each player names and pronouns.
 			$('.runner-name').add('.pronouns').text('');
@@ -93,8 +92,7 @@ $(() => {
 
 			for (let team of currentTeamsData) {
 				for (let player of team.players) {
-					$('#runner-name' + (i + 1)).text(player.name);
-					FixSize('#runner-name' + (i + 1));
+					fadeText('#runner-name' + (i + 1), player.name, true);
 
 					// Set pronouns
 					const pronoun = pronouns[player.name];

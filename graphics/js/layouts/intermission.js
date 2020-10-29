@@ -58,8 +58,8 @@ $(() => {
     let upNextGame = $('#up-next-game');
     let upNextInfo = $('#up-next-info');
 
-    upNextGame.html('Metroid Prime Hunters');
-    upNextInfo.html('All Items | Mr_Shasta');
+    upNextGame.html('METROID PRIME HUNTERS');
+    upNextInfo.html('Mr_Shasta');
     FixSize('#up-next-game');
     FixSize('#up-next-info');
 
@@ -69,13 +69,13 @@ $(() => {
     let onDeckGame2 = $('#on-deck-game2');
     let onDeckInfo2 = $('#on-deck-info2');
 
-    onDeckGame1.text('A Hat in Time');
-    onDeckInfo1.text('Any% | flarebear');
+    onDeckGame1.text('A HAT IN TIME');
+    onDeckInfo1.text('flarebear');
     FixSize('#on-deck-game1');
     FixSize('#on-deck-info1');
 
-    onDeckGame2.text('Fire Emblem: Three Houses');
-    onDeckInfo2.text('Golden Deer | Claris');
+    onDeckGame2.text('FIRE EMBLEM: THREE HOUSES');
+    onDeckInfo2.text('Claris');
     FixSize('#on-deck-game2');
     FixSize('#on-deck-info2');
   }
@@ -109,26 +109,15 @@ $(() => {
   }
 
   function refreshNextRunsData(currentRun) {
-    // Clear fields
-    $('#up-next-game').html('');
-    $('#up-next-info').html('');
-    $('#on-deck-game1').html('');
-    $('#on-deck-info1').html('');
-    $('#on-deck-game2').html('');
-    $('#on-deck-info2').html('');
-
     const numUpcoming = 2;
     let nextRuns = getNextRuns(currentRun, numUpcoming);
 
-    let upNextGame = $('#up-next-game');
-    let upNextInfo = $('#up-next-info');
+    let upNextGame = '#up-next-game';
+    let upNextInfo = '#up-next-info';
 
     // Next up game.
-    upNextGame.html(currentRun.game);
-    upNextInfo.html(getNamesForRun(runDataActiveRun.value).join(', '));
-
-    FixSize('#up-next-game');
-    FixSize('#up-next-info');
+    fadeHtml(upNextGame, currentRun.game, true);
+    fadeHtml(upNextInfo, getNamesForRun(runDataActiveRun.value).join(', '), true);
 
     // On deck games.
     let i = 0;
@@ -136,12 +125,10 @@ $(() => {
       if (i >= numUpcoming) {
         break;
       }
-      let onDeckGame = $('#on-deck-game' + (i + 1));
-      let onDeckRunner = $('#on-deck-info' + (i + 1));
-      onDeckGame.html(run.game).show();
-      onDeckRunner.html(getNamesForRun(run).join(', ')).show();
-      FixSize('#on-deck-game' + (i + 1));
-      FixSize('#on-deck-info' + (i + 1));
+      let onDeckGame = '#on-deck-game' + (i + 1);
+      let onDeckRunner = '#on-deck-info' + (i + 1);
+      fadeHtml(onDeckGame, run.game, true);
+      fadeHtml(onDeckRunner, getNamesForRun(run).join(', '), true);
       i += 1;
     }
   }
