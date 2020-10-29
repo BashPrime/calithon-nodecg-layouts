@@ -1,15 +1,14 @@
 body {
-	background: url('../img/layouts/Calithon_Intermission.png') no-repeat;
+	background: url('../img/layouts/Spook_Intermission.png') no-repeat;
 }
 
 #host-container {
     font-size: 20pt;
-    width: 500px;
     height: 39px;
     line-height: 39px;
     position: absolute;
-    top: 52px;
-    left: 70px;
+    bottom: 146px;
+    left: 591px;
 }
 
 #up-next-label {
@@ -21,7 +20,6 @@ body {
 }
 
 #up-next-game {
-	font-family: 'Montserrat Bold';
 	font-size: 28pt;
 	width: 395px;
 	line-height: 85px;
@@ -50,7 +48,6 @@ body {
 }
 
 .on-deck-game {
-	font-family: 'Montserrat Bold';
 	font-size: 24pt;
 	width: 350px;
 	line-height: 62px;
