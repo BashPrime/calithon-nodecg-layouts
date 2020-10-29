@@ -1,18 +1,20 @@
 // Omnibar functionality (primarily the ticker text)
 'use strict';
 
-const TEXT_ITEMS = [
-	'Calithon Spooktacular benefits ',
-	'This benefits this charity',
-	'For more info go to Baltimore'
+const HTML_ITEMS = [
+	`<p class="omnibar-text">
+		Calithon Spooktacular benefits
+		<span style="color: #6752b4;">Direct Relief</span>
+	</p>`,
+	`<p class="omnibar-text">Donate: <tiltify link></p>`
 ];
 
 $(() => {
 	runTickerText();
 
-	function setOmnibarText(text) {
-		$('#omnibar-text').fadeOut(400, () => {
-			$('#omnibar-text').html(text).fadeIn(400);
+	function setOmnibarHtml(html) {
+		$('#omnibar-content').fadeOut(400, () => {
+			$('#omnibar-content').html(html).fadeIn(400);
 		});
 	}
 
@@ -20,11 +22,11 @@ $(() => {
 		let index = 0;
 
 		// Initially set text
-		setOmnibarText(TEXT_ITEMS[index]);
+		setOmnibarHtml(HTML_ITEMS[index]);
 
 		setInterval(() => {
-			index = (index < textItems.length - 1) ? index + 1 : 0;
-			setOmnibarText(TEXT_ITEMS[index]);
+			index = (index < HTML_ITEMS.length - 1) ? index + 1 : 0;
+			setOmnibarHtml(HTML_ITEMS[index]);
 		}, 10000);
 	}
 });

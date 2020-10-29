@@ -15,18 +15,24 @@
 	flex: 1;
 }
 
-#omnibar-text {
+#omnibar-content * {
+	margin: 0 auto;
+	font-size: 18pt;
+	display: initial;
+}
+
+.omnibar-text {
 	margin: 0 auto;
 	font-size: 18pt;
 }
 
 #charity-logo {
-	background-color: #4b3b83;
+	background-color: #281a40;
 	padding: 0 0.35rem;
 }
 
 #donation-total {
-	background-color: #281a40;
+	background-color: #4b3b83;
 	padding: 0 0.5rem;
 	font-size: 24pt;
 }
