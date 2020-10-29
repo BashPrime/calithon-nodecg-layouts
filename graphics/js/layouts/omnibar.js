@@ -12,7 +12,7 @@ const OMNIBAR_CONTENT = [
 		Calithon Spooktacular benefits the
 		<span style="color: #725dc6;">California Fire Foundation</span>
 	</p>`,
-	`<p class="is-single-line is-text-centered">You can donate at <span style="color: #725dc6;">donate.tiltify.com/@calithon/calithon-spooktacular</span></p>`
+	`<p class="is-single-line is-text-centered">Donate at <span style="color: #725dc6;">donate.tiltify.com/@calithon/calithon-spooktacular</span></p>`
 ];
 
 $(() => {
@@ -54,12 +54,13 @@ $(() => {
 				return runCandidates[0];
 			}
 
-			return runCandidates.filter(runData => runData.id !== run.id)[getRandomInt(0, runCandidates.length)];
+			return runCandidates.filter(runData => runData.id !== excludeRun.id)[getRandomInt(0, runCandidates.length)];
 		}
 	}
 
 	function runTickerText() {
 		let index = 0;
+		let count = OMNIBAR_CONTENT.length - 1;
 		let displayContent = false;
 		let previousDisplayedRun;
 
@@ -73,8 +74,9 @@ $(() => {
 				upcomingRun = getRandomUpcomingRun(runDataActiveRun.value, previousDisplayedRun, 6);
 			}
 
-			if (!upcomingRun || !runDataActiveRun || Math.random() <= 0.25) {
+			if (count > 0 && (!upcomingRun || !runDataActiveRun || Math.random() <= 0.55)) {
 				index = (index < OMNIBAR_CONTENT.length - 1) ? index + 1 : 0;
+				count -= 1;
 				setOmnibarHtml(OMNIBAR_CONTENT[index]);
 
 				if (displayContent) {
@@ -82,9 +84,10 @@ $(() => {
 				}
 			} else {
 				displayContent = true; // force next iteration to display regular content
+				count = OMNIBAR_CONTENT.length;
 				previousDisplayedRun = upcomingRun;
 				displayUpcomingRun(previousDisplayedRun);
 			}
-		}, 5000);
+		}, 15000);
 	}
 });
