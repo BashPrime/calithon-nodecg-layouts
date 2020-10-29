@@ -1,6 +1,6 @@
 'use strict';
 $(() => {
-	const TILTIFY_CAMPAIGN_ID = 59855; // id for calithon stand together cmpaign
+	const TILTIFY_CAMPAIGN_ID = 76323; // id for calithon spooktacular cmpaign
 	const TILTIFY_AUTH_TOKEN = null;
 	let countUp;
 	let currentTotal;
