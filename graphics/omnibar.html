@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html>
-  
-  <head>
-    <meta charset="UTF-8">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/common.css" />
-    <link rel="stylesheet" href="css/omnibar.css" />
+<head>
+	<meta charset="UTF-8">
 
-    <!-- JavaScript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="css/omnibar.css" />
 
-    <script src="js/third-party/countUp.min.js"></script>
-    <script src="js/utils.js"></script>
-    <script src="js/donation.js"></script>
+	<!-- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-    <script>
-      let isOffline = false;
-    </script>
-  </head>
+	<script src="js/layouts/omnibar.js"></script>
+	<script src="js/third-party/countUp.min.js"></script>
+	<script src="js/utils.js"></script>
+	<script src="js/donation.js"></script>
 
-  <body>
-    <!-- omnibar icons-->
-    <div id="omnibar">
-      <div id="donation-total-container">
-        <div id="charity-logo"><img src="img/logos/tbp_logo_white_sm.png" /></div>
-        <div id="donation-total"></div>
-      </div>
-      <div id="calithon-logo"><img src="img/logos/CalithonLogoA.png" /></div>
-    </div>
-  </body>
+	<script>
+		let isOffline = true;
+	</script>
+</head>
+
+<body>
+	<div id="omnibar">
+		<div id="charity-logo" class="omnibar-item">
+			<img src="img/logos/cff_logo.png" />
+		</div>
+		<div id="donation-total" class="omnibar-item">
+			<span id="donation-total-text"></span>
+		</div>
+		<div id="omnibar-content" class="omnibar-item">
+			<span id="omnibar-text"></span>
+		</div>
+		<div id="marathon-logo" class="omnibar-item">
+			<img src="img/logos/CalithonLogoA.png" />
+		</div>
+	</div>
+</body>
 
 </html>

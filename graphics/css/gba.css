@@ -1,25 +1,21 @@
-body {
-	background: url('../img/layouts/Spook_16x9no.png') no-repeat;
-}
-
 #runner-container1 {
-	width: 471px;
+	width: 394px;
 	height: 45px;
 	line-height: 45px;
-	left: 304px;
+	left: 457px;
 	bottom: 58px;
 }
 
 #game-name {
-	width: 471px;
+	width: 394px;
 	height: 65px;
 	line-height: 65px;
-	left: 304px;
+	left: 457px;
 	bottom: 103px;
 }
 
 #info-container {
-	width: 471px;
+	width: 394px;
 	height: 45px;
 	line-height: 45px;
 	right: 0;
@@ -27,7 +23,8 @@ body {
 }
 
 #timer {
-	width: 487px;
+	font-size: 40pt;
+	width: 394px;
 	height: 65px;
 	line-height: 65px;
 	right: 0;
