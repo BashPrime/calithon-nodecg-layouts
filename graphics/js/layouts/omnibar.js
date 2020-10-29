@@ -3,8 +3,8 @@
 
 const HTML_ITEMS = [
 	`<p class="omnibar-text">
-		Calithon Spooktacular benefits
-		<span style="color: #6752b4;">Direct Relief</span>
+		Calithon Spooktacular benefits the
+		<span style="color: #6752b4;">California Fire Foundation</span>
 	</p>`,
 	`<p class="omnibar-text">Donate: <tiltify link></p>`
 ];
