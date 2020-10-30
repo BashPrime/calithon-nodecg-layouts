@@ -17,7 +17,7 @@ $(() => {
 	}
 
 	function loadOffline() {
-		$('#donation-total').html('$123,456.78');
+		$('#donation-total').html('$123,456');
 	}
 
 	function loadFromTiltifyApi() {
@@ -42,7 +42,7 @@ $(() => {
 
 	function handleCountUp(amount) {
 		if (!countUp) {
-			countUp = new CountUp('donation-total', amount, amount, 2, 0.75, {
+			countUp = new CountUp('donation-total', amount, amount, 0, 0.75, {
 				prefix: '$'
 			});
 			countUp.start();
