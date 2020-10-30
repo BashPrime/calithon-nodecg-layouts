@@ -19,6 +19,9 @@ $(() => {
 	// Run data
 	let runDataActiveRun = nodecg.Replicant('runDataActiveRun', speedcontrolBundle);
 	let runDataArray = nodecg.Replicant('runDataArray', speedcontrolBundle);
+	let contentIndex = 0;
+	let onDeckIndex = 0;
+	let onDeckRuns;
 
 	NodeCG.waitForReplicants(runDataActiveRun, runDataArray).then(runTickerText);
 
@@ -28,73 +31,64 @@ $(() => {
 		});
 	}
 
-	function displayUpcomingRun(run) {
+	function displayOnDeckRun(run) {
 		const players = getNamesForRun(run).join(', ');
 		setOmnibarHtml(`<p class="is-multiline is-text-centered">ON DECK: ${run.game.toUpperCase()}</p>
 		<p class="is-multiline is-text-centered">${run.category} by ${players}</p>`);
 	}
 
-	function getRandomUpcomingRun(run, excludeRun, numHours = 12) {
-		// Return null if the array is empty or not defined
-		if (!runDataArray || runDataArray.length) return null;
+	function getOnDeckRuns(run, numRuns = 3) {
+		let nextRuns = [];
 
-		// If run is defined (usually the active run), pick an upcoming run within numHours ahead of it and display it
-		if (run) {
-			let runCandidates = runDataArray.value.filter(runData => {
-				const maxScheduledS = run.scheduledS + (numHours * 3600);
+		// If run is defined (usually the active run), get the on deck runs
+		if (run && runDataArray) {
+			let currentRunIndex = runDataArray.value.findIndex(runData => runData.id === run.id);
 
-				// Don't include runs without categories to filter out setup blocks
-				if (!runData.category) return false;
-
-				// Only get runs after the current run, within the numHours threshold
-				return runData.scheduledS > run.scheduledS && runData.scheduledS <= maxScheduledS;
-			});
-
-			// We don't want to potentially display the same run as the one last displayed,
-			// so we pass in the previous displayed run as excludeRun
-			// however, excludeRun is overridden if there is only one run left to display
-			if (runCandidates.length === 1) {
-				return runCandidates[0];
+			for (let i = 1; i <= numRuns; i++) {
+				if (!runDataArray.value[currentRunIndex + i]) {
+					break;
+				}
+				nextRuns.push(runDataArray.value[currentRunIndex + i]);
 			}
-
-			// actually handle excludeRun
-			if (excludeRun) {
-				runCandidates = runCandidates.filter(runData => runData.id !== excludeRun.id);
-			}
-
-			return runCandidates[getRandomInt(0, runCandidates.length)];
 		}
+
+		return nextRuns;
 	}
 
 	function runTickerText() {
-		let index = 0;
-		let count = OMNIBAR_CONTENT.length - 1;
-		let displayContent = false;
-		let previousDisplayedRun;
+		// The "change" event is triggered when the current run is changed.
+		runDataActiveRun.on('change', (newVal, oldVal) => {
+			onDeckRuns = getOnDeckRuns(newVal);
+			onDeckIndex = 0;
+		});
+
+		runDataArray.on('change', (newVal, oldVal) => {
+			onDeckRuns = getOnDeckRuns(runDataActiveRun.value);
+			onDeckIndex = 0;
+		});
+
+		let contentCount = OMNIBAR_CONTENT.length - 1;
+		let forceDisplayContent = false;
 
 		// Initially set text
-		setOmnibarHtml(OMNIBAR_CONTENT[index]);
+		setOmnibarHtml(OMNIBAR_CONTENT[contentIndex]);
 
 		setInterval(() => {
-			let upcomingRun;
-			// Get random upcoming run in advance to determine if we have any
-			if (!displayContent && runDataActiveRun && runDataArray) {
-				upcomingRun = getRandomUpcomingRun(runDataActiveRun.value, previousDisplayedRun, 6);
-			}
+			if (contentCount > 0 && (forceDisplayContent || Math.random() <= 0.65)) {
+				// Display static omnibar text
+				contentIndex = (contentIndex < OMNIBAR_CONTENT.length - 1) ? contentIndex + 1 : 0;
+				contentCount -= 1;
+				setOmnibarHtml(OMNIBAR_CONTENT[contentIndex]);
 
-			if (count > 0 && (!upcomingRun || !runDataActiveRun || Math.random() <= 0.55)) {
-				index = (index < OMNIBAR_CONTENT.length - 1) ? index + 1 : 0;
-				count -= 1;
-				setOmnibarHtml(OMNIBAR_CONTENT[index]);
-
-				if (displayContent) {
-					displayContent = false;
-				}
+				if (forceDisplayContent)
+					forceDisplayContent = false;
 			} else {
-				displayContent = true; // force next iteration to display regular content
-				count = OMNIBAR_CONTENT.length;
-				previousDisplayedRun = upcomingRun;
-				displayUpcomingRun(previousDisplayedRun);
+				// Display an on deck run
+				forceDisplayContent = true; // force next iteration to display static content
+				contentCount = OMNIBAR_CONTENT.length; // reset static content count
+				displayOnDeckRun(onDeckRuns[onDeckIndex]);
+				onDeckIndex = (onDeckIndex < onDeckRuns.length - 1) ? onDeckIndex + 1 : 0;
+				forceDisplayContent = true;
 			}
 		}, 15000);
 	}
