@@ -11,6 +11,13 @@
 		body {
 			background: url('img/layouts/Spook_GBAno.png') no-repeat;
 		}
+
+		#sponsor-container {
+			position: absolute;
+			width: 414px;
+			height: 662px;
+			margin: 0 20px;
+		}
 	</style>
 	<!-- JavaScript -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -19,6 +26,7 @@
 	<script src="js/pronouns.js"></script>
 	<script src="js/utils.js"></script>
 	<script src="js/timer.js"></script>
+	<script src="js/sponsors.js"></script>
 
 	<script>
 		let isOffline = false;
@@ -44,6 +52,11 @@
 			</div>
 			<div id="estimate"></div>
 		</div>
+	</div>
+
+	<!-- Sponsor area -->
+	<div id="sponsor-container">
+		<img id="sponsor-img" />
 	</div>
 
 	<!-- Timer -->

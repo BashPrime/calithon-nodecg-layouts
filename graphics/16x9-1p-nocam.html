@@ -11,6 +11,13 @@
 		body {
 			background: url('img/layouts/Spook_16x9no.png') no-repeat;
 		}
+
+		#sponsor-container {
+			position: absolute;
+			width: 281px;
+			height: 662px;
+			margin: 0 10px;
+		}
 	</style>
 
 	<!-- JavaScript -->
@@ -20,6 +27,7 @@
 	<script src="js/pronouns.js"></script>
 	<script src="js/utils.js"></script>
 	<script src="js/timer.js"></script>
+	<script src="js/sponsors.js"></script>
 
 	<script>
 		let isOffline = false;
@@ -45,6 +53,11 @@
 			</div>
 			<div id="estimate"></div>
 		</div>
+	</div>
+
+	<!-- Sponsor area -->
+	<div id="sponsor-container">
+		<img id="sponsor-img" />
 	</div>
 
 	<!-- Timer -->
