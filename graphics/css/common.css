@@ -84,3 +84,13 @@ body {
 .timer_finished {
 	color: #50ff50;
 }
+
+#sponsor-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+img#sponsor-img {
+	max-width: 100%;
+}
