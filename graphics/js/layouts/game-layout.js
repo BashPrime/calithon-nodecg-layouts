@@ -28,7 +28,7 @@ $(() => {
 		let pronouns4 = $('#pronouns4');
 
 		// Apply to html
-		gameTitle.html('Metroid Prime Hunters'.toUpperCase());
+		gameTitle.html('Metroid Prime Hunters');
 		FixSize('#game-name');
 		gameCategory.html('All Items');
 		FixSize('#category');
@@ -82,7 +82,7 @@ $(() => {
 			gameEstimate.html(runData.estimate);
 
 			// Fade out and fix text size for game title, run category
-			fadeHtml('#game-name', runData.game.toUpperCase(), true);
+			fadeHtml('#game-name', runData.game, true);
 			fadeHtml('#category', runData.category, true);
 
 			// Set each player names and pronouns.

@@ -1,70 +1,74 @@
 @font-face {
-	font-family: 'Acme Regular';
-	src: url('../fonts/Acme-Regular.ttf');
+	font-family: 'Barlow SemiBold';
+	src: url('../fonts/Barlow-SemiBold.ttf');
+}
+
+@font-face {
+	font-family: 'Barlow Bold';
+	src: url('../fonts/Barlow-Bold.ttf');
 }
 
 body {
-	font-family: 'Acme Regular', sans-serif;
-	color: #f9f9f9;
+	font-family: 'Barlow SemiBold', sans-serif;
 	padding: 0;
 	margin: 0;
-	width: 1280px;
-	height: 720px;
+	width: 1920px;
+	height: 1080px;
 	position: absolute;
 }
 
-#game-name {
-	font-size: 36pt;
-	font-stretch: semi-condensed;
-	text-align: center;
-	position: absolute;
-	margin: 0 0.5rem;
+.runner-name, #category, #estimate {
+	color: #3ba894;
 }
 
-.runner-container {
-	font-size: 18pt;
-	position: absolute;
-	display: flex;
-	margin: 0 0.5rem;
+.pronouns, #game-name, #timer {
+	color: #f9f9f9;
 }
 
 .runner-name {
-	float: left;
-	vertical-align: middle;
-	flex: 1;
+	font-size: 2em;
+	padding: 0 5px;
+	width: 290px;
+	height: 50px;
+	line-height: 50px;
+	position: absolute;
 }
 
 .pronouns {
-	font-size: 14pt;
-	float: right;
-	vertical-align: middle;
-}
-
-#info-container {
-	font-size: 18pt;
+	font-size: 1.75em;
+	text-align: center;
+	width: 150px;
+	height: 40px;
+	line-height: 40px;
 	position: absolute;
-	display: flex;
-	margin: 0 0.5rem;
 }
 
-#category {
-	float: left;
-	vertical-align: middle;
-	flex: 1;
+#game-name, #timer {
+	background-color: maroon;
+	font-size: 5em;
+	text-align: center;
+	padding: 0 5px;
+	width: 434px;
+	height: 120px;
+	line-height: 120px;
+	position: absolute;
 }
 
-#estimate-container {
-	float: right;
-	vertical-align: middle;
+#category, #estimate-container {
+	background-color: darkblue;
+	font-size: 2em;
+	text-align: center;
+    padding: 0 5px;
+	width: 445px;
+	height: 75px;
+	line-height: 75px;
+	position: absolute;
 }
 
-#estimate-label {
+img#estimate-label {
 	display: inline-block;
-	vertical-align: middle;
-}
-
-#estimate-label img {
-	height: 18pt;
+	height: 32px;
+	vertical-align: text-bottom;
 }
 
 #estimate {
@@ -72,9 +76,7 @@ body {
 }
 
 #timer {
-	font-size: 48pt;
-	text-align: center;
-	position: absolute;
+	font-family: 'Barlow Bold', sans-serif;
 }
 
 .timer_stopped {

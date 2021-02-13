@@ -22,73 +22,48 @@
     "graphics": [
       {
         "file": "4x3-1p-cam.html",
-        "width": 1280,
-        "height": 720
+        "width": 1920,
+        "height": 1080
       },
       {
         "file": "4x3-1p-nocam.html",
-        "width": 1280,
-        "height": 720
+        "width": 1920,
+        "height": 1080
       },
       {
         "file": "4x3-2p-cam.html",
-        "width": 1280,
-        "height": 720
+        "width": 1920,
+        "height": 1080
       },
       {
         "file": "4x3-2p-nocam.html",
-        "width": 1280,
-        "height": 720
+        "width": 1920,
+        "height": 1080
       },
       {
         "file": "16x9-1p-cam.html",
-        "width": 1280,
-        "height": 720
+        "width": 1920,
+        "height": 1080
       },
       {
         "file": "16x9-1p-nocam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "16x9-2p-cam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "16x9-2p-nocam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "gb-cam.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "gb-nocam.html",
-        "width": 1280,
-        "height": 720
+        "width": 1920,
+        "height": 1080
       },
       {
         "file": "gba-cam.html",
-        "width": 1280,
-        "height": 720
+        "width": 1920,
+        "height": 1080
       },
       {
         "file": "gba-nocam.html",
-        "width": 1280,
-        "height": 720
+        "width": 1920,
+        "height": 1080
       },
       {
         "file": "intermission.html",
-        "width": 1280,
-        "height": 720
-      },
-      {
-        "file": "omnibar.html",
-        "width": 1280,
-        "height": 55
+        "width": 1920,
+        "height": 1080
       }
     ]
   },
