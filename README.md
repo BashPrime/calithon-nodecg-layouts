@@ -1,4 +1,4 @@
-# Calithon Spooktacular Layouts
+# Calithon Gold Rush Layouts
 
 ## Prerequisites
 
@@ -16,13 +16,13 @@ Create a new directory. Inside the new directory, run the NodeCG setup:
 nodecg setup
 ```
 
-Next, install the following NodeCG bundles, checking out the correct branch for Calithon Spooktacular:
+Next, install the following NodeCG bundles, checking out the correct branch for Calithon Gold Rush:
 
 ```bash
 nodecg install speedcontrol/nodecg-speedcontrol
 nodecg install bashprime/calithon-nodecg-layouts
 cd bundles/calithon-nodecg-layouts
-git checkout calithon-spooktacular
+git checkout calithon-gold-rush
 cd ../..
 ```
 
