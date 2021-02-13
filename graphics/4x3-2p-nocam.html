@@ -6,18 +6,10 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/common.css" />
-	<link rel="stylesheet" href="css/4x3-2p.css" />
+	<link rel="stylesheet" href="css/4x3-2p-nocam.css" />
 	<style>
 		body {
-			background: url('img/layouts/Spook_4x3Bno.png') no-repeat;
-		}
-
-		#sponsor-container {
-			position: absolute;
-			bottom: 58px;
-			width: 216px;
-			height: 133px;
-			margin: 0 10px;
+			background: url('img/layouts/GoldRush_4x3B_nocam.png') no-repeat;
 		}
 	</style>
 
@@ -28,46 +20,30 @@
 	<script src="js/pronouns.js"></script>
 	<script src="js/utils.js"></script>
 	<script src="js/timer.js"></script>
-	<script src="js/sponsors.js"></script>
 
 	<script>
-		let isOffline = false;
+		let isOffline = true;
 	</script>
 </head>
 
 <body>
 	<!--Runner details.-->
-	<div class="runner-container" id="runner-container1">
-		<div class="runner-name" id="runner-name1"></div>
-		<div class="pronouns" id="pronouns1"></div>
-	</div>
+	<div class="runner-name" id="runner-name1"></div>
+	<div class="pronouns" id="pronouns1"></div>
 
-	<div class="runner-container" id="runner-container2">
-		<div class="runner-name" id="runner-name2"></div>
-		<div class="pronouns" id="pronouns2"></div>
-	</div>
+	<div class="runner-name" id="runner-name2"></div>
+	<div class="pronouns" id="pronouns2"></div>
 
 	<!--Game details -->
 	<div id="game-name"></div>
+	<div id="category"></div>
 
-	<!-- Game Info -->
-	<div id="info-container">
-		<div id="category"></div>
-		<div id="estimate-container">
-			<div id="estimate-label">
-				<img src="img/common/timer.svg" />
-			</div>
-			<div id="estimate"></div>
-		</div>
-	</div>
-
-	<!-- Sponsor area -->
-	<div id="sponsor-container">
-		<img id="sponsor-img" />
-	</div>
-
-	<!-- Timer -->
+	<!-- Timer and Estimate -->
 	<div id="timer"></div>
+	<div id="estimate-container">
+		<img src="img/common/timer.svg" id="estimate-label" />
+		<div id="estimate"></div>
+	</div>
 </body>
 
 </html>
