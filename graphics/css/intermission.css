@@ -1,84 +1,91 @@
 body {
-	background: url('../img/layouts/Spook_Intermission.png') no-repeat;
+	background: url('../img/layouts/GoldRush_Intermission.png') no-repeat;
+	background-size: 1920px 1080px;
+	color: #f9f9f9;
 }
 
 #host-container {
-    font-size: 20pt;
-    height: 39px;
-    line-height: 39px;
+	font-size: 3.25em;
+    width: 1060px;
+    height: 58px;
+    line-height: 54px;
     position: absolute;
-    bottom: 146px;
-    left: 591px;
+    top: 78px;
+    left: 100px;
 }
 
 #up-next-label {
-	font-size: 16pt;
-	width: 428px;
-	position: absolute;
-	top: 102px;
-	right: 0;
+    font-size: 3em;
+    position: absolute;
+    top: 131px;
+    right: 474px;
 }
 
 #up-next-game {
-	font-size: 28pt;
-	width: 395px;
-	line-height: 85px;
-	position: absolute;
-	top: 130px;
-	right: 0;
-	margin: 0 1rem;
+    font-family: 'Barlow Bold';
+    font-size: 4em;
+    width: 630px;
+    height: 126px;
+    line-height: 120px;
+    position: absolute;
+    top: 195px;
+    right: 0;
+    padding: 0 5px;
 }
 
 #up-next-info {
-	font-size: 18pt;
-	width: 352px;
-	line-height: 42px;
-	position: absolute;
-	top: 215px;
-	right: 0;
-	margin: 0 1rem;
+    font-size: 3em;
+    width: 566px;
+    height: 64px;
+    line-height: 60px;
+    position: absolute;
+    top: 321px;
+    right: 0;
+    padding: 0 5px;
 }
 
 #on-deck-label {
-	font-size: 16pt;
-	width: 382px;
-	position: absolute;
-	top: 266px;
-	right: 0;
+    font-size: 2em;
+    position: absolute;
+    top: 397px;
+    right: 458px;
 }
 
 .on-deck-game {
-	font-size: 24pt;
-	width: 350px;
-	line-height: 62px;
-	position: absolute;
-	margin: 0 1rem;
+    font-family: 'Barlow Bold';
+    font-size: 3.5em;
+    width: 563px;
+    height: 92px;
+    line-height: 92px;
+    position: absolute;
+    padding: 0 5px;
 }
 
 .on-deck-info {
-	font-size: 18pt;
-	width: 306px;
-	line-height: 42px;
-	position: absolute;
-	margin: 0 1rem;
+    font-size: 2.75em;
+    width: 499px;
+    height: 64px;
+    line-height: 60px;
+    position: absolute;
+    padding: 0 5px;
 }
 
 #on-deck-game1 {
-	top: 293px;
+	top: 439px;
 	right: 0;
 }
 
 #on-deck-info1 {
-	top: 355px;
+	top: 531px;
 	right: 0;
 }
 
 #on-deck-game2 {
-	top: 423px;
+	top: 634px;
 	right: 0;
 }
 
 #on-deck-info2 {
-	top: 485px;
+	top: 726px;
 	right: 0;
 }
