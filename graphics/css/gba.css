@@ -1,32 +1,37 @@
-#runner-container1 {
-	width: 394px;
-	height: 45px;
-	line-height: 45px;
-	left: 457px;
-	bottom: 58px;
+#runner-name1 {
+	top: 381px;
+    left: 10px;
+    width: 466px;
+}
+
+#pronouns1 {
+	top: 386px;
+	left: 486px;
 }
 
 #game-name {
-	width: 394px;
-	height: 65px;
-	line-height: 65px;
-	left: 457px;
-	bottom: 103px;
+	left: 676px;
 }
 
-#info-container {
-	width: 394px;
-	height: 45px;
-	line-height: 45px;
-	right: 0;
-	bottom: 58px;
+#category {
+    left: 670px;
+	width: 591px;
 }
 
 #timer {
-	font-size: 40pt;
-	width: 394px;
-	height: 65px;
-	line-height: 65px;
-	right: 0;
-	bottom: 103px;
+	right: 25px;
+}
+
+#estimate-container {
+	right: 20px;
+	width: 590px;
+}
+
+#game-name, #timer {
+	bottom: 93px;
+	width: 580px;
+}
+
+#category, #estimate-container {
+	bottom: 18px;
 }
