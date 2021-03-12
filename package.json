@@ -66,6 +66,16 @@
         "height": 1080
       },
       {
+        "file": "gb-cam.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "gb-nocam.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
         "file": "intermission.html",
         "width": 1920,
         "height": 1080

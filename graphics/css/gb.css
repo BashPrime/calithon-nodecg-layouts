@@ -1,0 +1,34 @@
+#runner-name1 {
+	top: 417px;
+	left: 10px;
+	width: 530px;
+}
+
+#pronouns1 {
+	top: 422px;
+	left: 550px;
+}
+
+#game-name {
+	top: 482px;
+	left: 15px;
+	width: 675px;
+}
+
+#category {
+    top: 602px;
+    left: 10px;
+	width: 685px;
+}
+
+#timer {
+	top: 712px;
+	left: 15px;
+	width: 675px;
+}
+
+#estimate-container {
+	top: 832px;
+	left: 10px;
+	width: 685px;
+}
