@@ -3,28 +3,30 @@ const HE_THEY = 'he/they';
 const SHE_HER = 'she/her';
 const SHE_THEY = 'she/they';
 const THEY_THEM = 'they/them';
+const ANY = 'any';
 
 const pronouns = {
-	nes: HE_THEY,
-	GhostKumo: HE_HIM,
-	Jaxler: HE_HIM,
-	FromDarkHell: HE_HIM,
-	KonceptioN2: HE_HIM,
-	MrCab55: HE_HIM,
-	KLM1187: HE_HIM,
-	Torpedo: HE_HIM,
+	piner: ANY,
+	Peas: null,
+	gill42: null,
+	Focus: HE_HIM,
+	LinkaMeister: null,
+	isbullets: HE_HIM,
+	TaintedTali: SHE_HER,
+	CosmykTheDolfyn: HE_HIM,
+	musiquil: null,
 	DemonicRobots: HE_HIM,
-	Aggy: THEY_THEM,
-	Seckswrecks: THEY_THEM,
-	PeekingBoo: HE_HIM,
-	kirbymastah: HE_HIM,
-	Kitt: THEY_THEM,
-	Jai_Heart: HE_HIM,
-	livelyraccoon: HE_HIM,
-	amber_cxc: SHE_HER,
-	Mr_Shasta: HE_HIM,
-	Crispyspeedruns: HE_HIM,
-	'The Sound Defense': HE_HIM
+	SuperViperT302: null,
+	Lylat_R: null,
+	sickynar: null,
+	BashPrime: HE_HIM,
+	shredberg:HE_HIM,
+	Sanjan: null,
+	nes: HE_THEY,
+	teddy: null,
+	JeremyMKW: HE_HIM,
+	juh0rse: HE_HIM,
+	TempestMask1000: null
 };
 
 function getPronounsForPlayer(playerName) {
