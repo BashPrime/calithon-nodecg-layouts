@@ -1,5 +1,7 @@
 # Calithon Stand Strong Layouts
 
+This bundle is based off [nicnacnic's speedcontrol-layouts v1.11.4 release](https://github.com/nicnacnic/speedcontrol-layouts).
+
 ## Prerequisites
 
 You will need to install [Git](https://git-scm.com/downloads), [NodeJS](https://nodejs.org) and [NodeCG](https://nodecg.com/docs/installing). I recommend installing the NodeCG CLI globally with npm:
