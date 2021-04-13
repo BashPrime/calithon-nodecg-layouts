@@ -1,22 +1,21 @@
 'use strict';
 
-const SPONSOR_IMGS = [
-	'img/logos/Spook_Logo.png',
-	'img/logos/MWSF_Logo.png',
-	'img/logos/logo_transp.png',
-	'img/logos/cff_logo.png'
-];
 let index = 0;
 
 $(() => {
+	let SPONSOR_IMGS = [];
+	for (let i = 0; i < nodecg.bundleConfig.sponsor.sponsorImages.length; i++)
+	{
+		SPONSOR_IMGS.push(nodecg.bundleConfig.sponsor.sponsorImages[i]);
+	}
 	runImages();
 
 	$('#sponsor-img').on('load', () => {
-		$('#sponsor-img').fadeIn(750);
+		$('#sponsor-img').fadeIn(nodecg.bundleConfig.sponsor.fadeInTime);
 	});
 
 	function updateSponsorImage(imgSrc) {
-		$('#sponsor-img').fadeOut(750, () => {
+		$('#sponsor-img').fadeOut(nodecg.bundleConfig.sponsor.fadeOutTime, () => {
 			setTimeout(() => {
 				$('#sponsor-img').attr('src', imgSrc);
 			}, 500);
@@ -32,12 +31,11 @@ $(() => {
 	}
 
 	function runImages() {
-		// Set first image
 		updateSponsorImage(SPONSOR_IMGS[index]);
 
 		setInterval(() => {
 			incrementIndex();
 			updateSponsorImage(SPONSOR_IMGS[index]);
-		}, 20000);
+		}, nodecg.bundleConfig.sponsor.dwellTime);
 	}
 });

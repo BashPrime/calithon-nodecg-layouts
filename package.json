@@ -1,86 +1,89 @@
 {
-  "name": "calithon-nodecg-layouts",
+  "name": "speedcontrol-layouts",
   "version": "1.0.0",
-  "description": "Calithon marathon layouts using NodeCG + Speedcontrol",
-  "homepage": "https://twitter.com/CalithonSR",
-  "author": "BashPrime",
-  "dependencies": {},
+  "description": "Editable layouts pack used during Horror(ible) Games 2021 - Heartbreak.",
+  "homepage": "https://github.com/nicnacnic/speedcontrol-layouts",
+  "author": "nicnacnic",
   "nodecg": {
     "compatibleRange": "^1.6.0",
     "dependencies": [
       "speedcontrol/nodecg-speedcontrol:>=2.0"
     ],
-    "dashboardPanels": [
-      {
-        "name": "host-switcher",
-        "title": "Host Switcher",
-        "width": 2,
-        "file": "host-switcher.html",
-        "headerColor": "#525C78"
-      }
-    ],
     "graphics": [
       {
-        "file": "4x3-1p-cam.html",
+        "file": "4x3_1p.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "4x3-1p-nocam.html",
+        "file": "4x3_2p.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "4x3-2p-cam.html",
+        "file": "4x3_3p.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "4x3-2p-nocam.html",
+        "file": "4x3_4p.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "16x9-1p-cam.html",
+        "file": "16x9_1p.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "16x9-1p-nocam.html",
+        "file": "16x9_2p.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "ds.html",
+        "file": "16x9_3p.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "gba-cam.html",
+        "file": "16x9_4p.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "gba-nocam.html",
+        "file": "GB.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "gb-cam.html",
+        "file": "GBA.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "gb-nocam.html",
+        "file": "DS.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "intermission.html",
+        "file": "3DS.html",
         "width": 1920,
         "height": 1080
+      },
+      {
+        "file": "Intermission.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "Omnibar.html",
+        "width": 1920,
+        "height": 82.5
       }
     ]
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
 }
