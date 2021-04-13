@@ -1,9 +1,12 @@
 {
-  "name": "speedcontrol-layouts",
+  "name": "calithon-nodecg-layouts",
   "version": "1.0.0",
-  "description": "Editable layouts pack used during Horror(ible) Games 2021 - Heartbreak.",
-  "homepage": "https://github.com/nicnacnic/speedcontrol-layouts",
-  "author": "nicnacnic",
+  "description": "Editable layouts pack used for the 2021 Calithon Stand Strong event.",
+  "homepage": "https://github.com/bashprime/calithon-nodecg-layouts",
+  "contributors": [
+    "BashPrime",
+    "nicnacnic"
+  ],
   "nodecg": {
     "compatibleRange": "^1.6.0",
     "dependencies": [
