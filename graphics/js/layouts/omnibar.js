@@ -3,10 +3,14 @@
 // Set static text.
 const OMNIBAR_STATIC = [
 	`<p class="is-single-line is-text-centered">
-		Horror(ible) Games 2021 - Refresh benefits the
-		<span style="color: #F2779D;">Heartland Animal Shelter</span>
+		You are watching
+		<span style="color: #fef900;">Calithon Presents: Stand Strong</span>
 	</p>`,
-	`<p class="is-single-line is-text-centered">Donate at <span style="color: #F2779D;">https://tiltify.com/@gamesible/hig-2021-refresh</span></p>`
+	`<p class="is-single-line is-text-centered">
+		Stand Strong benefits
+		<span style="color: #fef900;">Stop AAPI Hate</span>
+	</p>`,
+	`<p class="is-single-line is-text-centered">Donate at <span style="color: #fef900;">donate.tiltify.com/@calithon/calithon-presents-stand-strong</span></p>`
 ];
 
 $(() => {

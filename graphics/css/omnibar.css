@@ -3,9 +3,6 @@
 	display: flex;
 	width: 1920px;
 	height: 82.5px;
-	border-style: solid;
-	border-width: 5px 0px 0px 0px;
-	border-color: #111111;
 }
 
 #omnibar > * {
@@ -27,7 +24,7 @@
 }
 
 .is-multiline {
-	font-size: 18pt;
+	font-size: 14pt;
 	margin: 0;
 }
 
@@ -52,9 +49,9 @@
 }
 
 #charity-logo img {
-	height: 68px;
+	height: 82px;
 }
 
 #marathon-logo img {
-	height: 82px;
+	height: 64px;
 }
