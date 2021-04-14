@@ -3,7 +3,7 @@
 $(() => {
 
 	loadFromSpeedControl();
-	
+
 	function loadFromSpeedControl() {
 		const speedcontrolBundle = 'nodecg-speedcontrol';
 
@@ -28,13 +28,12 @@ $(() => {
 			fadeHtml('#game-name', runData.game.toUpperCase(), true);
 			fadeHtml('#category', runData.category, true);
 
-			$('.runner-name').add('.pronouns').text('');
+			$('.runner-name').text('');
 			$('.runner-details').data('teamID', '');
 			let i = 0;
 
 			for (let team of currentTeamsData) {
 				for (let player of team.players) {
-					fadeText('#runner-name' + (i + 1), player.name, true);
 					let pronoun;
 					if (nodecg.bundleConfig.customData.useCustomPronouns) {
 						pronoun = '[' + player.customData.pronouns + ']';
@@ -43,7 +42,9 @@ $(() => {
 					}
 					else
 						pronoun = '';
-					fadeText('#pronouns' + (i + 1), pronoun, true);
+
+					const fullText = pronoun ? player.name + ' ' + pronoun : player.name;
+					fadeText('#runner-name' + (i + 1), fullText, true);
 
 					$('#runner-details' + (i + 1)).data('teamID', player.teamID);
 					i += 1;

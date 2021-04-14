@@ -32,25 +32,9 @@ body {
 }
 
 /* Runner name and pronouns panel. */
-.runner-container {
-	position: absolute;
-	display: flex;
-}
-
 .runner-name {
-	margin-right: 15px;
 	font-size: 30pt;
-	font-stretch: semi-condensed;
-	float: left;
-	vertical-align: middle;
-	width: 100%;
-}
-
-.pronouns {
-	font-size: 32px;
-	vertical-align: middle;
-	text-align: right;
-	float: right;
+	position: absolute;
 }
 
 .medals {

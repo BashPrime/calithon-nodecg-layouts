@@ -1,5 +1,5 @@
 /* Runner and pronouns panel. */
-#runner-container1 {
+#runner-name1 {
 	width: 564px;
     height: 67px;
     line-height: 67px;
@@ -8,11 +8,6 @@
 
     padding-left: 15px;
     padding-right: 15px;
-}
-
-/* Runner name dynamic text. */
-.runner-name {
-	max-width: 412px;
 }
 
 /* Game name panel. */
