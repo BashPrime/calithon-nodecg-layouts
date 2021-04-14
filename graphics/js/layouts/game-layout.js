@@ -43,7 +43,7 @@ $(() => {
 					else
 						pronoun = '';
 
-					const fullText = pronoun ? player.name + ' ' + pronoun : player.name;
+					const fullText = pronoun && pronoun.length ? player.name + ' ' + pronoun : player.name;
 					fadeText('#runner-name' + (i + 1), fullText, true);
 
 					$('#runner-details' + (i + 1)).data('teamID', player.teamID);

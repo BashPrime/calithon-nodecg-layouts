@@ -45,14 +45,15 @@
 
 /* Sponsor panel. */
 #sponsor-container {
-	width: 585px;
-	height: 296px;
-	line-height: 296px;
-	left: 0;
-	top: 698px;
+    position: absolute;
+    width: 585px;
+    height: 315px;
+    left: 0;
+    top: 677px;
+    margin: 0.5rem;
 }
 
-/* Sponsor image max size. */
 img#sponsor-img {
-	max-width: 45%;
+	max-width: 90%;
+	max-height: 90%;
 }
