@@ -9,159 +9,120 @@
 
 	padding-left: 15px;
 	padding-right: 15px;
-
-	border: 2px solid transparent;
 }
 
 /* Up Next label. */
 #up-next-label {
 	font-size: 24pt;
-	width: 642px;
-	position: absolute;
-	top: 226px;
-	left: 1240px;
-
-	border: 3px solid transparent;
+    position: absolute;
+    top: 140px;
+    left: 1276px;
 }
 
 /* Game panel. */
 #up-next-game {
-	font-size: 60pt;
-	font-stretch: semi-condensed;
-	width: 650px;
-	line-height: 132px;
-	position: absolute;
-	top: 270px;
-	left: 1240px;
+    font-size: 72px;
+    width: 611px;
+    line-height: 127px;
+    position: absolute;
+    top: 195px;
+    right: 0;
 
-	padding-left: 15px;
-	padding-right: 15px;
-
-	border: 2px solid transparent;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Up Next info panel. */
 #up-next-info-container {
-	width: 596px;
-	line-height: 65px;
-	position: absolute;
-	top: 405px;
-	left: 1296px;
+    width: 567px;
+    line-height: 56px;
+    position: absolute;
+	display: flex;
+	flex-direction: row;
+    top: 323px;
+    right: 0;
 
-	padding-left: 15px;
-	padding-right: 7.5px;
-
-	border: 3px solid transparent;
-}
-
-/* Runner name dynamic text. */
-#up-next-info {
-	max-width: 450px;
-
-	border: 3px solid transparent;
+    padding-left: 15px;
+    padding-right: 7.5px;
 }
 
 /* On Deck label. */
 #on-deck-label {
-	font-size: 24pt;
-	width: 573px;
-	position: absolute;
-	top: 519px;
-	left: 1320px;
-
-	border: 3px solid transparent;
+    font-size: 24pt;
+    position: absolute;
+    top: 385px;
+    left: 1343px;
 }
 
 /* On deck game 1. */
 #on-deck-game1 {
-	font-size: 54pt;
-	font-stretch: semi-condensed;
-	width: 572px;
-	line-height: 110px;
-	position: absolute;
-	top: 561px;
-	left: 1320px;
+    font-size: 60px;
+    width: 550px;
+    line-height: 94px;
+    position: absolute;
+    top: 439px;
+    right: 0;
 
-	padding-left: 15px;
-	padding-right: 7.5px;
-
-	border: 3px solid transparent;
+    padding-left: 15px;
+    padding-right: 7.5px;
 }
 
 /* On deck info panel 1. */
 #on-deck-info-container1 {
-	width: 515px;
-	line-height: 55px;
-	position: absolute;
-	top: 675px;
-	left: 1377px;
+    width: 502px;
+    line-height: 53px;
+    position: absolute;
+    top: 532px;
+    right: 0;
+    display: flex;
+    flex-direction: row;
 
-	padding-left: 15px;
-	padding-right: 7.5px;
-
-	border: 3px solid transparent;
-}
-
-/* Runner name dynamic text. */
-#on-deck-info1 {
-	max-width: 345px;
-
-	border: 3px solid transparent;
+    padding-left: 15px;
+    padding-right: 7.5px;
 }
 
 /* On deck game 2. */
 #on-deck-game2 {
-	font-size: 54pt;
-	font-stretch: semi-condensed;
-	width: 572px;
-	line-height:110px;
-	position: absolute;
-	top: 792px;
-	left: 1320px;
+    font-size: 60px;
+    width: 550px;
+    line-height: 94px;
+    position: absolute;
+    top: 634px;
+    right: 0;
 
-	padding-left: 10px;
-	padding-right: 5px;
-
-	border: 3px solid transparent;
+    padding-left: 15px;
+    padding-right: 7.5px;
 }
 
 /* On deck info panel 2. */
 #on-deck-info-container2 {
-	width: 515px;
-	line-height: 55px;
-	position: absolute;
-	top: 906px;
-	left: 1377px;
+    width: 502px;
+    line-height: 53px;
+    position: absolute;
+    top: 727px;
+    right: 0;
+    display: flex;
+    flex-direction: row;
 
-	padding-left: 15px;
-	padding-right: 7.5px;
-
-	border: 3px solid transparent;
-}
-
-/* Runner name dynamic text. */
-#on-deck-info2 {
-	max-width: 345px;
-
-	border: 3px solid transparent;
+    padding-left: 15px;
+    padding-right: 7.5px;
 }
 
 /* Info panel options. Don't change unless you know what you're doing! */
 .info {
 	margin-top: 3px;
 	font-size: 22pt;
-	font-stretch: semi-condensed;
 	float: left;
 	vertical-align: middle;
 	width: 100%;
 	flex: 1;
+	padding-right: 15px;
 }
 
 .estimate-container {
 	float: right;
 	font-stretch: normal;
 	vertical-align: middle;
-	width: 100%;
 }
 
 .estimate-label {

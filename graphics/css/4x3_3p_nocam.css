@@ -1,0 +1,100 @@
+/* Runner and pronouns panel. */
+.runner-container {
+	width: 262px;
+	height: 42px;
+	line-height: 42px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* Runner name dynamic text. */
+.runner-name {
+	width: 410px;
+	height: 66px;
+	line-height:66px;
+}
+
+/* Player 1 info position. */
+#runner-name1 {
+	left: 665px;
+	top: 291px;
+}
+
+/* Player 2 info position. */
+#runner-name2 {
+	right: 665px;
+	top: 413px;
+}
+
+/* Player 3 info position. */
+#runner-name3 {
+	left: 665px;
+	top: 533px;
+}
+
+/* Medal 1 position */
+#medals1 {
+	right: 715px;
+	top: 312px;
+}
+
+/* Medal 2 position */
+#medals2 {
+	left: 715px;
+	top: 434px;
+}
+
+/* Medal 3 position */
+#medals3 {
+	right: 715px;
+	top: 560px;
+}
+
+/* Game name panel. */
+#game-name {
+    width: 564px;
+    height: 132px;
+    line-height: 132px;
+    left: 665px;
+    bottom: 257px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Category and estimate panel. */
+#info-container {
+	width: 564px;
+    height: 66px;
+    line-height: 66px;
+    left: 665px;
+    bottom: 190px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Timer panel. */
+#timer {
+	width: 594px;
+	height: 96px;
+	line-height: 96px;
+	left: 665px;
+	bottom: 88px;
+}
+
+/* Sponsor panel. */
+#sponsor-container {
+	width: 655px;
+    height: 493px;
+    line-height: 330px;
+    right: 0;
+    bottom: 88px;
+}
+
+/* Sponsor image max size. */
+img#sponsor-img {
+	max-width: 90%;
+	max-height: 90%;
+}

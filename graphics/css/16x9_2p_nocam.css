@@ -3,7 +3,7 @@
 	width: 628px;
 	height: 67px;
 	line-height: 67px;
-	top: 644px;
+	top: 542px;
 
 	padding-left: 15px;
 	padding-right: 15px;
@@ -21,11 +21,11 @@
 
 /* Game name panel. */
 #game-name {
-	width: 897px;
-	height: 209px;
-	line-height: 209px;
-	left: 497px;
-	bottom: 155px;
+	width: 586px;
+	height: 97px;
+	line-height: 97px;
+	left: 651px;
+	bottom: 269px;
 
 	padding-left: 15px;
 	padding-right: 15px;
@@ -33,11 +33,11 @@
 
 /* Category and estimate panel. */
 #info-container {
-	width: 896px;
+	width: 586px;
 	height: 67px;
 	line-height: 67px;
-	left: 497px;
-	bottom: 87px;
+	left: 651px;
+	bottom: 201px;
 
 	padding-left: 15px;
 	padding-right: 15px;
@@ -50,11 +50,11 @@
     height: 67px;
     line-height: 67px;
     left: 663px;
-    top: 644px;
+    top: 542px;
 }
 
 .medals {
-	top: 663px;
+	top: 562px;
 }
 
 #medals1 {
@@ -67,13 +67,14 @@
 
 /* Sponsor panel. */
 #sponsor-container {
-	width: 492px;
-    height: 277px;
-    right: 0;
-    bottom: 88px;
+	width: 620px;
+	height: 380px;
+	line-height: 198px;
+	right: 0;
+	bottom: 88px;
 }
 
-/* Max sponsor size. */
+/* Sponsor image max size. */
 img#sponsor-img {
 	max-width: 90%;
 	max-height: 90%;
