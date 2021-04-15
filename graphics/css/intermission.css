@@ -1,14 +1,14 @@
 /* Host panel. */
 #host-container {
-    font-size: 30pt;
+	font-size: 30pt;
     height: 59px;
     line-height: 59px;
     position: absolute;
-    top: 850px;
-    left: -15px;
+    top: 78px;
+    left: 101px;
 
-	padding-left: 15px;
-	padding-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Up Next label. */
