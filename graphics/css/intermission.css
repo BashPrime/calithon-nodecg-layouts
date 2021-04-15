@@ -21,6 +21,7 @@
 
 /* Game panel. */
 #up-next-game {
+	font-family: 'ShinGoPro Bold';
     font-size: 72px;
     width: 611px;
     line-height: 127px;
@@ -56,6 +57,7 @@
 
 /* On deck game 1. */
 #on-deck-game1 {
+	font-family: 'ShinGoPro Bold';
     font-size: 60px;
     width: 550px;
     line-height: 94px;
@@ -83,6 +85,7 @@
 
 /* On deck game 2. */
 #on-deck-game2 {
+	font-family: 'ShinGoPro Bold';
     font-size: 60px;
     width: 550px;
     line-height: 94px;
