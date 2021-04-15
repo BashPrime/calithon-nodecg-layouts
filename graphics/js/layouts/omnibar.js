@@ -16,7 +16,7 @@ const OMNIBAR_STATIC = [
 $(() => {
 	// Set host text.
 	function displayActiveHost(host) {
-		setOmnibarHtml(`<p class='is-single-line is-text-centered'>Your current host is <span style="color: #F2779D;">${host.customData.host}</span></p>`);
+		setOmnibarHtml(`<p class='is-single-line is-text-centered'>Your current host is <span style="color: #fef900;">${host.customData.host}</span></p>`);
 	}
 
 	// Set run text.
