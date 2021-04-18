@@ -45,11 +45,10 @@
 
 /* Sponsor panel. */
 #sponsor-container {
-    width: 585px;
-    height: 315px;
+    width: 594px;
+    height: 333px;
     left: 0;
-    top: 677px;
-    margin: 0.5rem;
+    top: 169px;
 }
 
 /* Max sponsor image size. */
