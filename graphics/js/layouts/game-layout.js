@@ -25,7 +25,7 @@ $(() => {
 			gameYear.html(runData.release);
 			gameEstimate.html(runData.estimate);
 
-			fadeHtml('#game-name', runData.game.toUpperCase(), true);
+			fadeHtml('#game-name', runData.game, true);
 			fadeHtml('#category', runData.category, true);
 
 			$('.runner-name').text('');
