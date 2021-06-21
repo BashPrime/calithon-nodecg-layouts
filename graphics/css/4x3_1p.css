@@ -11,37 +11,46 @@
 
 /* Game name panel. */
 #game-name {
-	width: 564px;
-	height: 92px;
-	line-height: 92px;
-	left: 0;
-	top: 0;
-
+	width: 541px;
+	height: 93px;
+	line-height: 93px;
+	left: 32px;
+	top: 452px;
 	padding-left: 15px;
 	padding-right: 15px;
-    background: maroon;
 }
 
-/* Category and estimate panel. */
-#info-container {
-	width: 564px;
-    height: 67px;
-    line-height: 67px;
-    left: 0;
-    top: 98px;
-
+/* Category panel. */
+#category {
+    width: 541px;
+    height: 56px;
+    line-height: 56px;
+    left: 32px;
+    top: 550px;
     padding-left: 15px;
     padding-right: 15px;
-    background: maroon;
+}
+
+/* Estimate panel. */
+#estimate-container {
+    width: 541px;
+    height: 56px;
+    line-height: 56px;
+    left: 32px;
+    top: 739px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 /* Timer panel. */
 #timer {
-	width: 594px;
-    height: 96px;
-    line-height: 96px;
-    left: 0;
-    top: 575px;
+	width: 541px;
+	height: 93px;
+	line-height: 93px;
+	left: 32px;
+	top: 641px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 /* Sponsor panel. */
