@@ -1,18 +1,18 @@
 /* Font settings. */
 @font-face {
-	font-family: 'ShinGoPro Regular';
-	src: url('../fonts/A-OTF-ShinGoPro-Regular.otf');
+	font-family: 'Barlow SemiBold';
+	src: url('../fonts/Barlow-SemiBold.ttf');
 }
 
 @font-face {
-	font-family: 'ShinGoPro Bold';
-	src: url('../fonts/A-OTF-ShinGoPro-Bold.otf');
+	font-family: 'Barlow Bold';
+	src: url('../fonts/Barlow-Bold.ttf');
 }
 /* You can add an unlimited amount of fonts by copy/pasting @font-face! */
 
 /* General settings. */
 body {
-	font-family: 'ShinGoPro Regular';
+	font-family: 'Barlow SemiBold';
 	color: #f9f9f9;
 	padding: 0;
 	margin: 0;
@@ -23,7 +23,7 @@ body {
 
 /* Game name panel. */
 #game-name {
-	font-family: 'ShinGoPro Bold';
+	font-family: 'Barlow Bold';
 	font-size: 48px;
 	font-stretch: semi-condensed;
 	text-align: center;
@@ -75,7 +75,7 @@ img#estimate-label {
 
 /* Timer panel. */
 #timer {
-	font-family: 'ShinGoPro Bold';
+	font-family: 'Barlow Bold';
 	font-size: 64px;
 	text-align: center;
 	position: absolute;
