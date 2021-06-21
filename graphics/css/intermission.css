@@ -1,112 +1,99 @@
 /* Host panel. */
 #host-container {
-	font-size: 30pt;
-    height: 59px;
-    line-height: 59px;
+    font-size: 32px;
+    width: 1160px;
+    height: 54px;
+    line-height: 54px;
     position: absolute;
-    top: 78px;
-    left: 101px;
-
+    top: 102px;
+    left: 35px;
     padding-left: 15px;
     padding-right: 15px;
+    text-align: center;
 }
 
 /* Up Next label. */
 #up-next-label {
-	font-size: 24pt;
+    font-size: 32px;
     position: absolute;
-    top: 140px;
-    left: 1276px;
+    top: 333px;
+    left: 1282px;
 }
 
 /* Game panel. */
 #up-next-game {
-	font-family: 'ShinGoPro Bold';
+    font-family: 'Barlow Bold';
     font-size: 72px;
-    width: 611px;
-    line-height: 127px;
+    width: 603px;
+    line-height: 103px;
     position: absolute;
-    top: 195px;
+    top: 381px;
     right: 0;
-
     padding-left: 15px;
     padding-right: 15px;
 }
 
 /* Up Next info panel. */
 #up-next-info-container {
-    width: 567px;
-    line-height: 56px;
+    width: 611px;
+    line-height: 52px;
     position: absolute;
-	display: flex;
-	flex-direction: row;
-    top: 323px;
+    display: flex;
+    flex-direction: row;
+    top: 489px;
     right: 0;
-
     padding-left: 15px;
     padding-right: 7.5px;
-}
-
-/* On Deck label. */
-#on-deck-label {
-    font-size: 24pt;
-    position: absolute;
-    top: 385px;
-    left: 1343px;
 }
 
 /* On deck game 1. */
 #on-deck-game1 {
-	font-family: 'ShinGoPro Bold';
+    font-family: 'Barlow Bold';
     font-size: 60px;
-    width: 550px;
-    line-height: 94px;
+    width: 542px;
+    line-height: 93px;
     position: absolute;
-    top: 439px;
+    top: 586px;
     right: 0;
-
     padding-left: 15px;
-    padding-right: 7.5px;
+    padding-right: 15px;
 }
 
 /* On deck info panel 1. */
 #on-deck-info-container1 {
-    width: 502px;
-    line-height: 53px;
+    width: 550px;
+    line-height: 45px;
     position: absolute;
-    top: 532px;
+    top: 684px;
     right: 0;
     display: flex;
     flex-direction: row;
-
     padding-left: 15px;
     padding-right: 7.5px;
 }
 
 /* On deck game 2. */
 #on-deck-game2 {
-	font-family: 'ShinGoPro Bold';
+    font-family: 'Barlow Bold';
     font-size: 60px;
-    width: 550px;
-    line-height: 94px;
+    width: 542px;
+    line-height: 93px;
     position: absolute;
-    top: 634px;
+    bottom: 212px;
     right: 0;
-
     padding-left: 15px;
-    padding-right: 7.5px;
+    padding-right: 15px;
 }
 
 /* On deck info panel 2. */
 #on-deck-info-container2 {
-    width: 502px;
-    line-height: 53px;
+    width: 550px;
+    line-height: 46px;
     position: absolute;
-    top: 727px;
+    bottom: 151px;
     right: 0;
     display: flex;
     flex-direction: row;
-
     padding-left: 15px;
     padding-right: 7.5px;
 }
