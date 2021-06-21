@@ -1,8 +1,7 @@
 #omnibar {
-	background-color: #032e34;
 	display: flex;
 	width: 1920px;
-	height: 82.5px;
+	height: 82px;
 }
 
 #omnibar > * {
@@ -32,19 +31,8 @@
 	margin: 0 auto;
 }
 
-#charity-logo {
-	background-color: #004652;
-	padding: 0 0.5rem;
-}
-
-#donation-total {
-	background-color: #004652;
-	padding: 0 0.75rem;
-	font-size: 36pt;
-}
-
 #marathon-logo {
-	background-color: #004652;
+	background-color: #002d02;
 	padding: 0 1rem;
 }
 
