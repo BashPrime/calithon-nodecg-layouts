@@ -1,81 +1,61 @@
-/* Runner and pronouns panel. */
+/* Runner and pronouns panels. */
 .runner-name {
-	width: 628px;
-    height: 67px;
-    line-height: 67px;
-    bottom: 291px;
-
-    padding-left: 15px;
-    padding-right: 15px;
+	width: 770px;
+	height: 45px;
+	line-height: 45px;
+	bottom: 430px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
-/* Player 1 info position. */
 #runner-name1 {
-    left: 0;
+	left: 0;
 }
 
-/* Player 2 info position. */
 #runner-name2 {
 	right: 0;
 }
 
 /* Game name panel. */
 #game-name {
-	width: 748px;
-	height: 131px;
-	line-height: 131px;
-	left: 570px;
-	bottom: 155px;
-
+	width: 541px;
+	height: 93px;
+	line-height: 93px;
+	left: 354px;
+	bottom: 264px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-/* Category and estimate panel. */
-#info-container {
-	width: 748px;
-	height: 67px;
-	line-height: 67px;
-	left: 570px;
-	bottom: 87px;
+/* Category panel. */
+#category {
+	width: 541px;
+	height: 56px;
+	line-height: 56px;
+	left: 354px;
+	bottom: 203px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
 
+/* Estimate panel. */
+#estimate-container {
+	width: 541px;
+	height: 56px;
+	line-height: 56px;
+	right: 399px;
+	bottom: 203px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
 /* Timer panel. */
 #timer {
-    font-size: 48px;
-    width: 594px;
-    height: 67px;
-    line-height: 67px;
-    left: 663px;
-    bottom: 291px;
-}
-
-.medals {
-	bottom: 300px;
-}
-
-#medals1 {
-	left: 672px;
-}
-
-#medals2 {
-	right: 672px;
-}
-
-/* Sponsor panel. */
-#sponsor-container {
-	width: 567px;
-	height: 198px;
-	line-height: 198px;
-	right: 0;
-	bottom: 88px;
-}
-
-/* Sponsor image max size. */
-img#sponsor-img {
-	max-width: 90%;
-	max-height: 90%;
+	width: 541px;
+	height: 93px;
+	line-height: 93px;
+	right: 399px;
+	bottom: 264px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
