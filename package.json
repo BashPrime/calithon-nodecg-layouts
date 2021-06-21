@@ -24,22 +24,7 @@
         "height": 1080
       },
       {
-        "file": "4x3_2p.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
         "file": "4x3_2p_nocam.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "file": "4x3_3p.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "file": "4x3_3p_nocam.html",
         "width": 1920,
         "height": 1080
       },
@@ -54,36 +39,6 @@
         "height": 1080
       },
       {
-        "file": "16x9_1p_nocam.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "file": "16x9_2p.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "file": "16x9_2p_nocam.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "file": "GB_1p.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "file": "GB_1p_nocam.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "file": "GB_2p_nocam.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
         "file": "GBA_1p.html",
         "width": 1920,
         "height": 1080
@@ -94,32 +49,12 @@
         "height": 1080
       },
       {
-        "file": "GBA_2p.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "file": "GBA_2p_nocam.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
         "file": "DS_1p_nocam.html",
         "width": 1920,
         "height": 1080
       },
       {
-        "file": "3DS.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
         "file": "3DS_nocam.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "file": "PapeBingo.html",
         "width": 1920,
         "height": 1080
       },
