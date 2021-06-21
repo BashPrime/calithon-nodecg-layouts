@@ -1,11 +1,10 @@
 /* Runner and pronouns panel. */
 #runner-name1 {
-	width: 564px;
-    height: 67px;
-    line-height: 67px;
-    left: 0;
-    top: 507px;
-
+    width: 541px;
+    height: 46px;
+    line-height: 46px;
+    left: 32px;
+    top: 374px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -20,6 +19,7 @@
 
 	padding-left: 15px;
 	padding-right: 15px;
+    background: maroon;
 }
 
 /* Category and estimate panel. */
@@ -32,6 +32,7 @@
 
     padding-left: 15px;
     padding-right: 15px;
+    background: maroon;
 }
 
 /* Timer panel. */
