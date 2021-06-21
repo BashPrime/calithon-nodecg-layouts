@@ -3,14 +3,9 @@
 // Set static text.
 const OMNIBAR_STATIC = [
 	`<p class="is-single-line is-text-centered">
-		You are watching
-		<span style="color: #fef900;">Calithon Presents: Stand Strong</span>
-	</p>`,
-	`<p class="is-single-line is-text-centered">
-		Stand Strong benefits
-		<span style="color: #fef900;">Stop AAPI Hate</span>
-	</p>`,
-	`<p class="is-single-line is-text-centered">Donate at <span style="color: #fef900;">donate.tiltify.com/@calithon/calithon-presents-stand-strong</span></p>`
+		Calithon Presents 
+		<span style="color: #ffe919;">Memeathon Strikes Back</span>
+	</p>`
 ];
 
 $(() => {
@@ -25,10 +20,10 @@ $(() => {
 
 		if (runIndex === 0)
 			setOmnibarHtml(`<p class='is-multiline is-text-centered'>UP NEXT: ${run.game}</p>
-			<p class='is-multiline is-text-centered'>${run.category} by ${players}</p>`);
+			<p class='is-multiline is-text-centered'>${run.category ? run.category : ''} by ${players}</p>`);
 		else
 			setOmnibarHtml(`<p class="is-multiline is-text-centered">ON DECK: ${run.game}</p>
-		<p class="is-multiline is-text-centered">${run.category} by ${players}</p>`);
+		<p class="is-multiline is-text-centered">${run.category ? run.category : ''} by ${players}</p>`);
 	}
 
 	function displayActiveTargets(target) {
