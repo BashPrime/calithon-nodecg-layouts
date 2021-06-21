@@ -1,48 +1,40 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <meta charset="UTF-8">
-	  
-      <!-- CSS -->
-      <link rel="stylesheet" href="css/common.css" />
-      <link rel="stylesheet" href="css/16x9_1p.css" />
-      <style>
-         body {
-            background: url('img/layouts/cam/Calithon_16x9.png') no-repeat;
-            background-size: 1920px 1080px;
-         }
-      </style>
-	  
-      <!-- JavaScript -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="js/layouts/game-layout.js"></script>
-      <script src="js/utils.js"></script>
-      <script src="js/timer.js"></script>
-      <script src="js/sponsors.js"></script>
-   </head>
-   <body>
-      <body>
-         <!-- Runner details -->
-         <div class="runner-name" id="runner-name1"></div>
-      
-         <!-- Game details -->
-         <div id="game-name"></div>
-      
-         <!-- Game info -->
-         <div id="info-container">
-            <div id="category"></div>
-            <div id="estimate-container">
-               <img src="img/common/timer.svg" id="estimate-label" />
-               <div id="estimate"></div>
-            </div>
-         </div>
-      
-         <!-- Sponsor area -->
-         <div id="sponsor-container">
-            <img id="sponsor-img" />
-         </div>
-      
-         <!-- Timer -->
-         <div id="timer"></div>
-   </body>
+
+<head>
+   <meta charset="UTF-8">
+
+   <!-- CSS -->
+   <link rel="stylesheet" href="css/common.css" />
+   <link rel="stylesheet" href="css/16x9_1p.css" />
+   <style>
+      body {
+         background: url('img/layouts/cam/Calithon_16x9.png') no-repeat;
+         background-size: 1920px 1080px;
+      }
+   </style>
+
+   <!-- JavaScript -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="js/layouts/game-layout.js"></script>
+   <script src="js/utils.js"></script>
+   <script src="js/timer.js"></script>
+</head>
+
+<body>
+   <!--Runner details.-->
+   <div class="runner-name" id="runner-name1"></div>
+
+   <!--Game details -->
+   <div id="game-name"></div>
+   <div id="category"></div>
+
+   <!-- Timer and Estimate -->
+   <div id="timer"></div>
+   <div id="estimate-container">
+      <img src="img/common/timer.svg" id="estimate-label" />
+      <div id="estimate"></div>
+   </div>
+</body>
+
 </html>
