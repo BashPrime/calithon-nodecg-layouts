@@ -1,58 +1,54 @@
 /* Runner and pronouns panel. */
 #runner-name1 {
-	width: 652px;
-	height: 68px;
-	line-height: 68px;
-	right: 0;
-	top: 828px;
-
+	width: 541px;
+	height: 46px;
+	line-height: 46px;
+	left: 31px;
+	top: 399px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
 /* Game name panel. */
 #game-name {
-	width: 652px;
-	height: 97px;
-	line-height: 97px;
-	left: 550px;
-	top: 828px;
-
+	width: 541px;
+	height: 93px;
+	line-height: 93px;
+	left: 31px;
+	top: 20px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
-/* Category and estimate panel. */
-#info-container {
-	width: 652px;
-	height: 68px;
-	line-height: 68px;
-	left: 550px;
-	bottom: 87px;
+/* Category panel. */
+#category {
+	width: 541px;
+	height: 56px;
+	line-height: 56px;
+	left: 31px;
+	top: 118px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
 
+/* Estimate panel. */
+#estimate-container {
+	width: 541px;
+	height: 56px;
+	line-height: 56px;
+	left: 31px;
+	top: 307px;
 	padding-left: 15px;
 	padding-right: 15px;
 }
 
 /* Timer panel. */
 #timer {
-	width: 652px;
-	height: 97px;
-	line-height: 97px;
-	right: 0;
-	bottom: 87px;
-}
-
-/* Sponsor panel. */
-#sponsor-container {
-	width: 545px;
-	height: 580px;
-	left: 0;
-	top: 0;
-}
-
-/* Max sponsor size. */
-img#sponsor-img {
-	max-width: 90%;
-	max-height: 90%;
+	width: 541px;
+	height: 93px;
+	line-height: 93px;
+	left: 31px;
+	top: 209px;
+	padding-left: 15px;
+	padding-right: 15px;
 }
