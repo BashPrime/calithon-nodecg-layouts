@@ -49,6 +49,16 @@
         "height": 1080
       },
       {
+        "file": "3DS_1p_nocam.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "DS_1p_nocam.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
         "file": "GBA_1p.html",
         "width": 1920,
         "height": 1080
@@ -59,12 +69,7 @@
         "height": 1080
       },
       {
-        "file": "DS_1p_nocam.html",
-        "width": 1920,
-        "height": 1080
-      },
-      {
-        "file": "3DS_1p_nocam.html",
+        "file": "GB_1p_nocam.html",
         "width": 1920,
         "height": 1080
       },
