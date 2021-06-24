@@ -47,7 +47,7 @@ $(() => {
 		let upNextGame = '#up-next-game';
 		let upNextInfo = '#up-next-info';
 		let upNextEstimate = '#up-next-estimate';
-		fadeHtml(upNextGame, currentRun.game.toUpperCase(), true);
+		fadeHtml(upNextGame, currentRun.game, true);
 		fadeHtml(upNextInfo, getNamesForRun(runDataActiveRun.value).join(', '), true);
 		fadeHtml(upNextEstimate, currentRun.estimate, true);
 		if (nodecg.bundleConfig.customData.useCustomHost && currentRun.customData.host !== undefined)
@@ -63,7 +63,7 @@ $(() => {
 			let onDeckGame = '#on-deck-game' + (i + 1);
 			let onDeckRunner = '#on-deck-info' + (i + 1);
 			let onDeckEstimate = '#on-deck-estimate' + (i + 1);
-			fadeHtml(onDeckGame, run.game.toUpperCase(), true);
+			fadeHtml(onDeckGame, run.game, true);
 			fadeHtml(onDeckRunner, getNamesForRun(run).join(', '), true);
 			fadeHtml(onDeckEstimate, run.estimate, true);
 			i += 1;
