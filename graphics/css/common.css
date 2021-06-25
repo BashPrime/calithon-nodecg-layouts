@@ -8,6 +8,11 @@
 	font-family: 'Barlow Bold';
 	src: url('../fonts/Barlow-Bold.ttf');
 }
+
+@font-face {
+	font-family: 'Barlow Bold Monospaced';
+	src: url('../fonts/Barlow-Bold-Monospaced.ttf');
+}
 /* You can add an unlimited amount of fonts by copy/pasting @font-face! */
 
 /* General settings. */
@@ -75,7 +80,7 @@ img#estimate-label {
 
 /* Timer panel. */
 #timer {
-	font-family: 'Barlow Bold';
+	font-family: 'Barlow Bold Monospaced';
 	font-size: 64px;
 	text-align: center;
 	position: absolute;
